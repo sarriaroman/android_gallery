@@ -30,7 +30,7 @@ public class Gallery extends GalleryActivity {
 String[] urls = new String[] {"http://918thefan.com/wp-content/uploads/2011/06/Speed-Racer.jpg", "http://images.wikia.com/speedracer/images/8/8e/MACH_6.jpg"};
 
 Intent gallery = new Intent(this, com.example.Gallery.class);
-gallery.putStringExtra("url", urls);
+gallery.putExtra("url", urls);
 startActivity(gallery);
 ```
 
